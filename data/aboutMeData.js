@@ -1,12 +1,12 @@
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 
 export const aboutMeData = [
-	{
-		id: uuidv4(),
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-	},
-	{
-		id: uuidv4(),
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-	},
+  {
+    id: uuidv4(),
+    bio: "A highly motivated individual with leadership, creativity and innovative abilities, possessing professional internship backgrounds in web developer within FMCG (Fast Moving Consumer Goods) sectors. Believes in the power of collaboration and enjoys working with like-minded individuals to overcome complex challenges. Proficient in user-friendly web applications, creating innovative design, and enthusiastic about exploring new technologies. Have a deep interest in technology, design and programming.",
+},
+// {
+// 	id: uuidv4(),
+// 	bio: "A highly motivated individual with leadership, creativity and innovative abilities, possessing professional internship backgrounds in web developer within FMCG (Fast Moving Consumer Goods) sectors. Believes in the power of collaboration and enjoys working with like-minded individuals to overcome complex challenges. Proficient in user-friendly web applications, creating innovative design, and enthusiastic about exploring new technologies. Have a deep interest in technology, design and programming.",
+//   },
 ];
