@@ -180,11 +180,11 @@ export const projectsData = [
 					title: 'Website',
 					details: ' https://digital-counter-seven.vercel.app/',
 				},
-				{
-					id: uuidv4(),
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				// {
+				// 	id: uuidv4(),
+				// 	title: 'Phone',
+				// 	details: '555 8888 888',
+				// },
 			],
 			ObjectivesHeading: 'Background',
 			ObjectivesDetails:
@@ -261,31 +261,31 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
+		title: 'Pizza Menu',
 		url: 'project-management-ui',
-		category: 'UI/UX Design',
-		img: '/images/ui-project-1.jpg',
+		category: 'Web Application',
+		img: '/images/pizza-menu.png',
 		ProjectHeader: {
-			title: 'Project Management UI',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			title: 'Pizza Menu',
+			publishDate: 'Oct 10, 2023',
+			tags: 'Web Application',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
 				title: 'Kabul Project Management UI',
-				img: '/images/ui-project-1.jpg',
+				img: '/images/pizza-menu.png',
 			},
-			{
-				id: uuidv4(),
-				title: 'Kabul Project Management UI',
-				img: '/images/web-project-2.jpg',
-			},
-			{
-				id: uuidv4(),
-				title: 'Kabul Project Management UI',
-				img: '/images/mobile-project-2.jpg',
-			},
+			// {
+			// 	id: uuidv4(),
+			// 	title: 'Kabul Project Management UI',
+			// 	img: '/images/web-project-2.jpg',
+			// },
+			// {
+			// 	id: uuidv4(),
+			// 	title: 'Kabul Project Management UI',
+			// 	img: '/images/mobile-project-2.jpg',
+			// },
 		],
 		ProjectInfo: {
 			ClientHeading: 'About Client',
@@ -293,27 +293,27 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					title: 'Name',
-					details: 'Company Ltd',
+					details: 'Personal Project',
 				},
 				{
 					id: uuidv4(),
 					title: 'Services',
-					details: 'UI Design & Frontend Development',
+					details: 'React.Js Course Project',
 				},
 				{
 					id: uuidv4(),
 					title: 'Website',
-					details: 'https://company.com',
+					details: 'https://pizza-menu-kappa-neon.vercel.app/',
 				},
-				{
-					id: uuidv4(),
-					title: 'Phone',
-					details: '555 8888 888',
-				},
+				// {
+				// 	id: uuidv4(),
+				// 	title: 'Phone',
+				// 	details: '555 8888 888',
+				// },
 			],
-			ObjectivesHeading: 'Objective',
+			ObjectivesHeading: 'Background',
 			ObjectivesDetails:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			'Learn the react library to get different between available and sold out menus',
 			Technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -321,36 +321,30 @@ export const projectsData = [
 						'HTML',
 						'CSS',
 						'JavaScript',
-						'Vue.js',
+						'React.Js',
 						'TailwindCSS',
-						'AdobeXD',
 					],
 				},
 			],
-			ProjectDetailsHeading: 'Challenge',
+			ProjectDetailsHeading: 'What I Learn',
 			ProjectDetails: [
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'Extracting JSX into a New Component: This involves identifying repetitive or complex JSX code within your pizza menu website and refactoring it into separate, reusable components. For example, if you have a section of code that renders a pizza item card, you can extract that into a PizzaItem component. This improves code organization, readability, and maintainability by encapsulating related functionality into separate units.',
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'Conditional Rendering with Multiple Returns: Conditional rendering allows you to display different content based on certain conditions. In the context of your pizza menu website, you might want to display a message indicating that certain pizza toppings are sold out if they are unavailable. You can achieve this by using conditional statements within your components to conditionally render different JSX based on the availability of toppings or other factors.',
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-				},
-				{
-					id: uuidv4(),
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					"React Fragments: React Fragments allow you to return multiple elements from a component without introducing additional DOM nodes. They are useful when you need to group multiple elements together but don't want to add an extra wrapping element. In your pizza menu website, you might use React Fragments to group together multiple JSX elements within a component, such as a list of pizza toppings or a menu item description.",
 				},
 			],
-			SocialSharingHeading: 'Share This',
+			// SocialSharingHeading: 'Share This',
 			// SocialSharing: [
 			// 	{
 			// 		id: uuidv4(),
