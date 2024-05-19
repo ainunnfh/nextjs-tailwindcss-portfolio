@@ -4,16 +4,17 @@ import {
 	FiLinkedin,
 	FiGlobe,
 	FiYoutube,
-	FiInstagram
+	FiInstagram,
+	FiMail
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
-	// {
-	// 	id: 1,
-	// 	icon: <FiGlobe />,
-	// 	url: 'https://www.stoman.me/',
-	// },
+	{
+		id: 1,
+		icon: <FiMail />,
+		url: 'mailto:ainunnafiah354@gmail.com',
+	},
 	{
 		id: 2,
 		icon: <FiGithub />,
