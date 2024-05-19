@@ -10,29 +10,29 @@ import {
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Travel List',
 		url: 'google-health-platform',
 		category: 'Web Application',
 		img: '/images/web-project-2.jpg',
 		ProjectHeader: {
-			title: 'Google Health Platform',
+			title: 'Travel List',
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Google Health Platform',
+				title: 'Travel List',
 				img: '/images/ui-project-1.jpg',
 			},
 			{
 				id: uuidv4(),
-				title: 'Google Health Platform',
+				title: 'Travel List',
 				img: '/images/web-project-2.jpg',
 			},
 			{
 				id: uuidv4(),
-				title: 'Google Health Platform',
+				title: 'Travel List',
 				img: '/images/mobile-project-2.jpg',
 			},
 		],
@@ -136,30 +136,30 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'Digital Counter App',
 		url: 'phoenix-digital-agency',
 		category: 'Mobile Application',
-		img: '/images/mobile-project-2.jpg',
+		img: '/images/digital-counter-app2.png',
 		ProjectHeader: {
-			title: 'Phoenix Digital Agency',
-			publishDate: 'Jul 26, 2021',
-			tags: 'Mobile Application',
+			title: 'Digital Counter App',
+			publishDate: 'Apr 04, 2024',
+			tags: 'Web Application',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Phoenix Digital Agency',
-				img: '/images/ui-project-1.jpg',
+				title: 'Digital Counter App',
+				img: '/images/digital-counter-app1.png',
 			},
 			{
 				id: uuidv4(),
-				title: 'Phoenix Digital Agency',
-				img: '/images/web-project-2.jpg',
+				title: 'Digital Counter App',
+				img: '/images/digital-counter-app2.png',
 			},
 			{
 				id: uuidv4(),
-				title: 'Phoenix Digital Agency',
-				img: '/images/mobile-project-2.jpg',
+				title: 'Digital Counter App',
+				img: '/images/digital-counter-app3.png',
 			},
 		],
 		ProjectInfo: {
@@ -168,7 +168,7 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					title: 'Name',
-					details: 'Company Ltd',
+					details: 'Personal Projects',
 				},
 				{
 					id: uuidv4(),
@@ -178,7 +178,7 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					title: 'Website',
-					details: 'https://company.com',
+					details: ' https://digital-counter-seven.vercel.app/',
 				},
 				{
 					id: uuidv4(),
@@ -186,19 +186,18 @@ export const projectsData = [
 					details: '555 8888 888',
 				},
 			],
-			ObjectivesHeading: 'Objective',
+			ObjectivesHeading: 'Background',
 			ObjectivesDetails:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+				'Full phone memory to download tasbih digital application and always lost if you buy manual tasbih',
 			Technologies: [
 				{
 					title: 'Tools & Technologies',
 					techs: [
 						'HTML',
 						'CSS',
-						'JavaScript',
-						'Vue.js',
+						'TypeScript',
+						'React.js',
 						'TailwindCSS',
-						'AdobeXD',
 					],
 				},
 			],
@@ -207,25 +206,25 @@ export const projectsData = [
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'Having a digital counter app with a challenge to produce a sound upon button click serves several beneficial purposes. Firstly, the auditory feedback adds a layer of confirmation and satisfaction to the user experience. Hearing a sound when a button is pressed provides immediate reassurance that the action has been registered, enhancing user confidence and reducing the likelihood of errors or accidental double-clicks. ',
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"Secondly, the incorporation of sound into the app's functionality can aid in concentration and focus. By associating each click with a distinct sound, users can establish a rhythm and flow to their counting process, helping them stay engaged and mindful of their task. This auditory cue serves as a gentle reminder to remain present and attentive, especially in activities requiring repetitive actions such as counting.",
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'Additionally, the challenge aspect adds an element of gamification to the app, making the counting process more interactive and enjoyable. Users may feel motivated to reach higher counts or achieve specific milestones in order to unlock new sounds or features, thereby increasing their engagement and fostering a sense of achievement.',
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'Overall, the integration of sound into the digital counter app not only enhances usability and concentration but also adds a fun and rewarding dimension to the counting experience, making it more engaging and enjoyable for users.'
 				},
 			],
-			SocialSharingHeading: 'Share This',
+			// SocialSharingHeading: 'Share This',
 			// SocialSharing: [
 			// 	{
 			// 		id: uuidv4(),
